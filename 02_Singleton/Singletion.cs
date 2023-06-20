@@ -9,6 +9,7 @@ namespace _02_Singleton
 {
     public class Singleton
     {
+        // singleton
         private static int counter = 0;
         private static Singleton? instance = null;
         public static Singleton Instance
